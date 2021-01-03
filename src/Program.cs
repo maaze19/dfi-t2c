@@ -70,7 +70,8 @@ namespace dfi_t2c
             {
                 Console.WriteLine("Do you want to swap your DFI tokens to DFI coins? (y/n)");
                 ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
-                if (consoleKeyInfo.ToString()?.ToLower() != "y")
+                string keyAsString = consoleKeyInfo.Key.ToString();
+                if (keyAsString?.ToLower() != "y")
                 {
                     Console.WriteLine("Swapping aborted by user.");
                     return;

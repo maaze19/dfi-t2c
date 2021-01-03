@@ -35,3 +35,4 @@ Defines how long the system will wait for a response from the rpc server (defid)
 If `true`, the console program will be asking for pressing any key before closing. If `false` the system will close the app immediately after everything is done.
 ### AskBeforeChange (bool)
 If `true`, the app asks whether it should swap the tokens. If `false` the app will swap the tokens automatically if the amount per address exceeds `MinimumConvertingAmount`
+![Example image](doc/example1.png)
